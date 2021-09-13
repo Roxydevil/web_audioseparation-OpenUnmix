@@ -3,14 +3,19 @@
 Веб приложение для онлайн разделения загруженного музыкального файла на два отдельных файла с вокалом и аккомпанементом.
 
 Стартовое окно выглядит так
-![Стартовое окно](https://github.com/web_audioseparation-OpenUnmix/readme/1.jpg)
+![Стартовое окно](readme/1.jpg)
+
 После загрузки исходного музыкального файла.
-![Загрузка исходного файла](https://github.com/web_audioseparation-OpenUnmix/readme/2.jpg)
+![Загрузка исходного файла](readme/2.jpg)
+
 После отправки на сервер.
-![Отправка на сервер](https://github.com/web_audioseparation-OpenUnmix/readme/3.jpg)
+![Отправка на сервер](readme/3.jpg)
+
 Скачивание разделенных файлов.
-![Результат](https://github.com/web_audioseparation-OpenUnmix/readme/4.jpg)
+![Результат](readme/4.jpg)
+
 Приложение выполнено на простом сервере Python, разделение исходного файла выполняется с помощью открытой библиотеки Open-unmix.
+
 
 Ссылка на авторов Open-unmix
 @article{stoter19,  
