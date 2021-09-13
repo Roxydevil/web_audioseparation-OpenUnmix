@@ -5,11 +5,11 @@
 Стартовое окно выглядит так
 ![Стартовое окно](https://github.com/web_audioseparation-OpenUnmix/readme/1.jpg)
 После загрузки исходного музыкального файла.
-![Стартовое окно](https://github.com/web_audioseparation-OpenUnmix/readme/2.jpg)
+![Загрузка исходного файла](https://github.com/web_audioseparation-OpenUnmix/readme/2.jpg)
 После отправки на сервер.
-![Стартовое окно](https://github.com/web_audioseparation-OpenUnmix/readme/3.jpg)
+![Отправка на сервер](https://github.com/web_audioseparation-OpenUnmix/readme/3.jpg)
 Скачивание разделенных файлов.
-![Стартовое окно](https://github.com/web_audioseparation-OpenUnmix/readme/4.jpg)
+![Результат](https://github.com/web_audioseparation-OpenUnmix/readme/4.jpg)
 Приложение выполнено на простом сервере Python, разделение исходного файла выполняется с помощью открытой библиотеки Open-unmix.
 
 Ссылка на авторов Open-unmix
