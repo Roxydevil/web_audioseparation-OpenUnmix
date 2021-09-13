@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #001a33;
+    font-size: 20pt;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainText {
+    font-size: 20pt;
+}
+
+.secondText {
+    font-size: 11pt;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.i {
+    border: 1px solid red;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    color: black;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.mainBlock {
+    width: 50vw;
+    height: 40vh;
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.mainButton {
+    background-color: #66ff66;
+    color: black;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Index.html*/
+.uploadForm {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.choose-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#chooseFile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}    
+    
+.send-area {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sendFile {
+    width: 150px;
+    height: 40px;
+    background-color: ;
+    border: none;
+}
+
+/*uploaded.html*/
+
+
+/*Download.html*/
+.downloadButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+#a_001, #a_002 {
+    display: none;
+}
+
+.a_mainButton {
+    display: block;
+    text-decoration: none;
+}

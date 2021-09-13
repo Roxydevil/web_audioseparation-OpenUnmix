@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sound separator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainBlock">
+        <form action="/cgi-bin/uploadFile.py" method="post" enctype="multipart/form-data" class="uploadForm">
+            <div class="choose-area">
+                <p class="mainText">Choose .wav file for upload</p>
+                <input type="file" name="filename" accept=".wav" id="chooseFile">
+            </div>
+            <div class="send-area">
+                <input type="submit" value="Send file" id="sendFile" class="mainButton">
+            </div>
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
